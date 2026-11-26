@@ -1,8 +1,8 @@
 <div align="center">
 
-# Rakan Alfadhel · راكان الفاضل
+# Hi there, I'm Rakan Alfadhel 👋
 
-**Computer Information Systems student at IMSIU · Aspiring Data Engineer · Riyadh, Saudi Arabia**
+**AI & Data Engineer | Information Systems Senior @ IMSIU | Riyadh, SA**
 
 I like data that's well modeled: designing the schema, building the system around it, and getting clear answers out of it.<br>
 I'm building toward Data Engineering, with AI as the next step.
