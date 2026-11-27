@@ -15,43 +15,40 @@ I'm building toward Data Engineering, with AI as the next step.
 
 ---
 
-## 🎓 Graduation project: Juhd | جُهد
+## 👑 Graduation project: Juhd | جُهد
 
-**An AI-driven, personalized fitness and nutrition recommendation system.**
+> **جُهد means effort. Juhd makes sure yours counts.**
 
-Juhd collects a user's workouts, meals and body measurements and organizes them through a data pipeline. It learns from that user's own history, and two LLM-based agents (Coach and Nutrition) explain every recommendation they make. A verification step checks each recommendation before the user sees it, and user ratings shape the next ones.
+One app that works as your coach and your nutritionist. Juhd learns from your own training, meals and body data, recommends what fits you best, and tells you why.
 
-```
-Collect → Analyze → Recommend → Monitor → Adapt
-```
+**The problem.** Fitness and nutrition apps are good at recording and weak at guiding. You log every set and every meal, then you're left to work out on your own whether it's working. Many "AI" features are just a chatbot placed over static logs.
+
+**What makes Juhd different**
 
 | | |
 |---|---|
-| **Stage** | GP1 this semester: planning, requirements, initial architecture. Prototype and testing come in GP2 |
-| **My role** | AI/ML and agent lead: ML models, Coach and Nutrition agents, verification step, feedback loop |
-| **Team** | Rakan Alfadhel & Omar Almazroa (data engineering lead), supervised by Dr. Prabu Pachiyannan |
-| **Research** | Survey of 86 people, interviews with 2 nutrition specialists and 2 fitness coaches, LEAP 2026 and SAIF 2026 |
-| **Design** | Raw → staging → analytics pipeline (planned: PostgreSQL), 9 use cases, 12 non-functional requirements |
-| **Built for** | Arabic and English, local Saudi foods, optional Ramadan schedules |
+| 📈 **Learns from you** | Machine learning models built on your own history, not one generic plan for everyone |
+| 💬 **Explains every move** | Each recommendation comes with the reason it suits you |
+| 🛡️ **Checked before you see it** | A verification step reviews the AI agents' advice before it reaches you |
+| 📍 **Made for here** | Arabic and English, local Saudi foods, Ramadan-aware schedules |
 
-> The code, screenshots and full report will be published here after GP2.
+```
+Collect → Analyze → Recommend → Monitor → Adapt ↻
+```
 
----
+**My role:** AI/ML and agent lead. I design the machine learning models, the Coach and Nutrition agents, the verification step and the feedback loop.
 
-## 🚧 Building now
-
-| Project | What it is | Stack |
-|---|---|---|
-| **REPLICANT** | Personal data engineering project: a local-first pipeline over NYC TLC taxi trip records, built around schema validation, idempotent loads and historical replay | Python · DuckDB · Parquet · SQL · pytest |
-| **AI Interview Evaluator** | Personal AI project: scores candidate interviews against configurable job rubrics, criterion by criterion, with signals from the speech itself | Python · Anthropic API · Whisper STT |
+**Status:** design stage now, prototype next semester. Code and screenshots will be published here when it's built.
 
 ---
 
-## 📂 Projects
+## 🎓 University projects
 
 | Area | Project | What I did | Stack |
 |---|---|---|---|
 | 🗄️ Data | [**Al-Faisal Academy Database**](https://github.com/rakanalfadel1-beep/Al-Faisal-Academy-Database-System) | Took a real training center from requirements to an EER model, a 3NF schema and a working Oracle database with JOINs, aggregations and views | Oracle SQL |
+| 🏛️ Architecture | [**SDAIA Platform Modernisation**](https://github.com/rakanalfadel1-beep/SDAIA-AirGapped-Platform-Modernisation) | **Core researcher and technical writer.** A plan to modernise an inherited, air-gapped platform (about 80 components, 60+ services): dependency mapping, GitOps, rebuilt data lineage and a 6-stage migration framework | OpenTelemetry · Kubernetes · Helm · Argo CD |
+| 🏛️ Architecture | [**Absher License Renewal**](https://github.com/rakanalfadel1-beep/Absher-Driving-License-Enterprise-Architecture) | Enterprise architecture study of driving license renewal; co-authored the EA3 matrices and designed the As-Is and To-Be BPMN workflows | EA3 Cube · BPMN |
 | 🗄️ Data | [**IMSIU Alshamel ERP Analysis**](https://github.com/rakanalfadel1-beep/IMSIU-Alshamel-ERP-System-Analysis) | Field study of the university's ERP: central data warehouse, payroll automation and links between systems | Systems analysis |
 | 🌐 Web | [**Riyadh Events Platform**](https://github.com/rakanalfadel1-beep/FullStack-Riyadh-Events-Platform-Vision2030) | **Team leader and back-end developer.** Event discovery and 3-step ticket booking with a seat map, bcrypt sign-in, recommendations and a chatbot assistant | PHP · MySQL · JavaScript · Bootstrap 5 |
 | 🤖 AI | [**Mutabiq · مطابق**](https://github.com/rakanalfadel1-beep/Mutabiq-SAMA-Compliance-AI-RegTech-SaaS-Platform) | Co-created a bilingual RegTech SaaS concept and prototype that checks FinTech policies against SAMA rules; I worked on the system and AI workflow design | Prototype · business plan |
@@ -64,6 +61,15 @@ Collect → Analyze → Recommend → Monitor → Adapt
 
 ---
 
+## 🚧 Personal builds (in progress)
+
+| Project | What it is | Stack |
+|---|---|---|
+| **REPLICANT** | A local-first data pipeline over NYC TLC taxi trip records, built around schema validation, idempotent loads and historical replay | Python · DuckDB · Parquet · SQL · pytest |
+| **AI Interview Evaluator** | Scores candidate interviews against configurable job rubrics, criterion by criterion, with signals from the speech itself | Python · Anthropic API · Whisper STT |
+
+---
+
 ## 🛠️ Toolbox
 
 | | Used in projects | Learning now |
@@ -71,7 +77,7 @@ Collect → Analyze → Recommend → Monitor → Adapt
 | **Data** | SQL (Oracle, MySQL) · data modeling · EER/ERD · 3NF | Python · DuckDB · Parquet · PostgreSQL · ETL/ELT · data warehousing |
 | **AI** | | Anthropic API · Whisper STT · ML fundamentals |
 | **Web** | PHP · JavaScript · HTML/CSS · Bootstrap 5 · AJAX | |
-| **Systems** | Requirements engineering · UML · DFD · BPMN · Figma | |
+| **Systems & architecture** | Requirements engineering · UML · DFD · BPMN · EA3 · Figma | |
 | **Networks & security** | Java sockets · multithreading · Cisco Packet Tracer · Nmap · VirusTotal | |
 | **Tools** | Git · GitHub · VS Code · XAMPP | |
 
